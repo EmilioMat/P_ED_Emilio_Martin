@@ -25,8 +25,15 @@ public class Calculadora {
         int numero2 = 3;
 
         // Llamar al método sumar y mostrar el resultado
+
         int resultado = miCalculadora.sumar(numero1, numero2);
         System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + resultado);
+    }
+
+
+
+    public int multiplica(int a, int b){
+	return a * b;
     }
 }
 
