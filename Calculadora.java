@@ -35,5 +35,9 @@ public class Calculadora {
     public int multiplica(int a, int b){
 	return a * b;
     }
+
+    public int restar(int c, int d){
+	return c - d;
+    }
 }
 
